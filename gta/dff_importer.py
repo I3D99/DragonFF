@@ -293,7 +293,7 @@ class dff_importer:
             "[60, 255, 0, 255]": "primary",
             "[255, 0, 175, 255]": "secondary",
             "[0, 255, 255]": "tertiary",
-            "[255, 0, 255]": "quaternary"
+            "[255, 0, 255]": "quaternary",
             "[255, 60, 0, 255]": "right rear light",
             "[185, 255, 0, 255]": "left rear light",
             "[0, 255, 200, 255]": "right front light",
@@ -312,7 +312,7 @@ class dff_importer:
             "[255, 56, 0, 255]": "indicator rr",
             "[0, 16, 255, 255]": "light night",
             "[0, 17, 255, 255]": "light all-day",
-            "[0, 18, 255, 255]": "default day",
+            "[0, 18, 255, 255]": "default day"
         }
 
         for color in colors:
